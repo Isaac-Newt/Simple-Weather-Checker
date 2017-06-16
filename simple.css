@@ -1,0 +1,32 @@
+html, body {
+  width: 350px;
+}
+
+.text-section-header {
+  padding-left: 10px;
+}
+
+a {
+  margin: 1em;
+  text-align: center;
+  font-size: 16px;
+  text-decoration: none;
+  display: inline-block;
+  color: black;
+}
+
+a:hover {
+  color: blue;
+}
+
+.switch-tabs {
+  padding-left: 10px;
+}
+
+.switch-tabs a {
+  display: block;
+}
+
+.panel {
+  margin: 5px;
+}

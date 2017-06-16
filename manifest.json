@@ -1,0 +1,24 @@
+{
+
+  "manifest_version": 2,
+  "name": "Simple Weather Checker",
+  "version": "1.0",
+
+
+  "description": "Popup options to check weather with wttr.in",
+  "icons": {
+    "48": "icons/simpleweather-48.png"
+  },
+
+  "permissions": [
+    "tabs"
+  ],
+
+  "browser_action": {
+    "browser_style": true,
+    "default_title": "Simple Weather Checker",
+    "default_popup": "simple.html",
+    "default_icon": "icons/simpleweather-32.png"
+  }
+
+}
